@@ -1260,3 +1260,61 @@ body{
     padding-top: 0px;
   }
 }
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: #200e2f;
+  background: -moz-linear-gradient(-45deg,  #200e2f 0%, #4a2053 100%); 
+  background: -webkit-linear-gradient(-45deg,  #200e2f 0%,#4a2053 100%);
+  background: linear-gradient(135deg,  #200e2f 0%,#4a2053 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#200e2f', endColorstr='#4a2053',GradientType=1 ); 
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+.overlay-content {
+  position: relative;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 15px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.closebtn {
+  position: absolute!important;
+  top: 3px!important;
+  left: 18px!important;
+  margin: 0!important;
+  padding: 0!important;
+  font-weight: 100!important;
+  font-size: 40px!important;
+}
+.closebtn{
+  @media #{$phone} {
+    font-size: 40px !important;
+    top: 15px;
+    right: 35px;
+  }
+}
+overlay a{
+  @media #{$phone} {
+    font-size: 20px
+  }
+}
