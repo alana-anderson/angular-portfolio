@@ -1,8 +1,5 @@
 Visit: [My Portfolio](https://alanaanderson.nyc)
 
-To install locally, run `npm install`.
-To start the app, run `gulp` then visit `http://localhost:8000` in your browser.
-
 To make this possible, I'm using:
 
  - [Angular](https://angularjs.org/)
@@ -10,3 +7,4 @@ To make this possible, I'm using:
  - [Gulp](http://gulpjs.com/)
  - [jQuery](https://jquery.com/)
  - [Webpack](http://webpack.github.io/)
+ - [Bower](http://bower.io/)
