@@ -1,4 +1,4 @@
-Visit: [My Portfolio](https://alanaanderson.nyc)
+Visit: [My Portfolio](http://alanatreimanis.github.io/)
 
 To make this possible, I'm using:
 
