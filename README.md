@@ -1,4 +1,4 @@
-Visit: [My Portfolio](http://alanatreimanis.github.io/)
+Visit the updated Portfolio Repo: [Portfolio Repo](https://github.com/alanatreimanis/alanatreimanis.github.io)
 
 To make this possible, I'm using:
 
